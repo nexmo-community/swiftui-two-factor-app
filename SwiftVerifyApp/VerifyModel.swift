@@ -22,7 +22,7 @@ final class VerifyModel: ObservableObject {
     
     private var requestResponse: RequestResponse?
     private var checkResponse: CheckResponse?
-    private let baseURL = "https://abdulajet.ngrok.io"
+    private let baseURL = "BASE_URL"
     
     func placeholderText() -> String {
         switch verificationStatus {
